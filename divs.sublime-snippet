@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+.${1} {
+	& div[class^="${1}"]:first-of-type {
+		float: ${2:left};
+	}
+	& div[class^="${1}"]:last-of-type {
+		float: ${2:right};
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>divs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+body {
+	min-height: 100%;
+	min-width: 100%;
+}
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	font-family: ${2:Arial};
+	font-size: 12px;
+	color: #000;
+}
+body .wrapper {
+	width: ${1:1005}px;
+	margin: 0 auto;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
